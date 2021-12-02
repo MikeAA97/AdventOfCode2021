@@ -11,7 +11,7 @@ def checkElements(list):
 
 
 
-with open("./P1_input.txt", "r") as content:
+with open("./input.txt", "r") as content:
     #For each line of the text file, strip the newline character, convert to integer, save to a list
     lines = [int(line.rstrip('\n')) for line in content.readlines()]
     print(checkElements(lines))
